@@ -16,13 +16,10 @@ class numberFollowingAPattern{
               stack.push(current++);
           }
       }
-      
       stack.push(current);
       while(!stack.isEmpty()){
           s.append(stack.pop());
       }
-      
-      
       return s.toString();
     }
 }
